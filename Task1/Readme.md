@@ -1,6 +1,6 @@
 # Task description:
 
-You should develop a Terraform code that implements predefined variables used to deploy infrastructure on AWS. <br>
+You should develop a Terraform code in **main.tf** that implements predefined variables used to deploy infrastructure on AWS. <br>
 Your task is to review the variables and their descriptions, and deploy designed infrastructure using additional needed resources, <br>
 such as **aws_internet_gateway**, **aws_route_table**, **aws_route_table_association** and **aws_security_group**. <br>
 
@@ -26,6 +26,13 @@ Also you should develop respective **ouputs.tf** with following information abou
 **output "ec2_subnet_id" {put your code here}**<br>
 **output "public_subnet_AZ" {put your code here}**<br>
 **output "ec2_region" {put your code here}**<br>
+
+After your code will be developed you need to make several steps to complete this task: <br>
+
+1. Install Terraform (or it could be already installed)<br>
+2. Run terraform init, plan and finally apply in your directory with your terrafom files.<br>
+3. Be sure, that you have properly configured AWS credentials, beacause it is required.<br>
+4. After successfully completing you should run terraform output and save its result as a file tf_output. <br>
 
 
 # Short overview
