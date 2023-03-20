@@ -17,13 +17,6 @@ The variables defined in the code are as follows:<br>
 | **instance_AMI**  | The AMI ID of the instance to be launched. The default value is "ami-05d34d340fb1d89e5"  |
 | **allowed_ports**  | A list of allowed ports. The default value is ["80", "443", "22", "8080"]  |
 
-
-
-| **date**  | report the current date and time  |
-
-
-
-
 Also you should develop respective **ouputs.tf* with following information about created resources: <br>
 
 **output "ec2_public_ip" {put your code here}**<br>
