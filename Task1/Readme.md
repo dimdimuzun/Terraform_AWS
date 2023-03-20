@@ -32,7 +32,7 @@ After your code will be developed you need to make several steps to complete thi
 1. Install Terraform (or it could be already installed)<br>
 2. Run terraform init, plan and finally apply in your directory with your terrafom files.<br>
 3. Be sure, that you have properly configured AWS credentials, beacause it is required.<br>
-4. After successfully completing you should run terraform output and save its result as a file tf_output. <br>
+4. After successfully completing you should run terraform output and save its result as a file **result**. <br>
 
 
 # Short overview
