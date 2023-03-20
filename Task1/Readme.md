@@ -6,14 +6,23 @@ such as **aws_internet_gateway**, **aws_route_table**, **aws_route_table_associa
 
 The variables defined in the code are as follows:<br>
 
-**region**: The AWS region where the infrastructure will be deployed. The default value is "eu-central-1".<br>
-**availability_zone**: The availability zone where the infrastructure will be deployed. The default value is "eu-central-1a".<br>
-**cidr**: The CIDR block for the VPC. The default value is "10.0.0.0/16".<br>
-**publicCIDR**: A list of CIDR blocks for the public subnets. The default value is ["10.0.1.0/24"].<br>
-**environment**: The environment where the infrastructure will be deployed. The default value is "dev".<br>
-**instance_type**: The instance type to be used for the EC2 instance. The default value is "t2.micro".<br>
-**instance_AMI**: The AMI ID of the instance to be launched. The default value is "ami-05d34d340fb1d89e5".<br>
-**allowed_ports**: A list of allowed ports. The default value is ["80", "443", "22", "8080"].<br>
+| **Variable**  | **Description** |
+| --- | --- |
+| **region** | The AWS region where the infrastructure will be deployed. The default value is "eu-central-1"  |
+| **availability_zone**  | The availability zone where the infrastructure will be deployed. The default value is "eu-central-1a"  |
+| **cidr**  | The CIDR block for the VPC. The default value is "10.0.0.0/16" |
+| **publicCIDR**  | A list of CIDR blocks for the public subnets. The default value is ["10.0.1.0/24"].  |
+| **environment**  | The environment where the infrastructure will be deployed. The default value is "dev"  |
+| **instance_type**  | The instance type to be used for the EC2 instance. The default value is "t2.micro"  |
+| **instance_AMI**  | The AMI ID of the instance to be launched. The default value is "ami-05d34d340fb1d89e5"  |
+| **allowed_ports**  | A list of allowed ports. The default value is ["80", "443", "22", "8080"]  |
+
+
+
+| **date**  | report the current date and time  |
+
+
+
 
 Also you should develop respective **ouputs.tf* with following information about created resources: <br>
 
