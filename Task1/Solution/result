@@ -1,0 +1,6 @@
+ec2_ami = "i-0dda336afe4be6e62"
+ec2_public_ip = "18.197.107.26"
+ec2_subnet_id = "subnet-07d96e373b0e2fdd6"
+ec2_type = "t2.micro"
+public_subnet_AZ = "eu-central-1a"
+public_vpc_id = "vpc-0272520f91a35d188"
