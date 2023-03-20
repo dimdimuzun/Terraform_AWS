@@ -4,7 +4,7 @@ You should develop a Terraform code in **main.tf** that implements predefined va
 Your task is to review the variables and their descriptions, and deploy designed infrastructure using additional needed resources, <br>
 such as **aws_internet_gateway**, **aws_route_table**, **aws_route_table_association** and **aws_security_group**. <br>
 
-The variables defined in the code are as follows:<br>
+The variables defined in the code (./Source/variables.tf) are as follows:<br>
 
 | **Variable**  | **Description** |
 | --- | --- |
